@@ -51,7 +51,7 @@ function Home()
              
              <div className="pro-picture">
              
-                <div class="card">
+                <div class="cards">
                     <img  />
                 </div>
              
