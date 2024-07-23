@@ -3,6 +3,7 @@ import './App.css';
 import Home from './Home';
 import MyPortfolio from './portfolio';
 import MyInformation from './Info';
+import MyFooter from './Footer';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Home/>
       <MyPortfolio/>
       <MyInformation/>
+      <MyFooter/>
     </div>
   );
 }

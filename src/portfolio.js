@@ -3,7 +3,9 @@ function MyPortfolio(){
         <div className="about-skills">
         <div className="about">
             <h1>About Me</h1>
-            <p>I'm a fullstack developer responsible for both front-end and back-end</p>
+            <p>As a full stack developer, I'm responsible for back-end and front-end to design and code web pages that are 
+                responsive and User-friendly to meet client's expectation
+            </p>
         </div>
         <div className="skills">
             <h1>My Skills</h1>

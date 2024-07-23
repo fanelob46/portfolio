@@ -1,7 +1,7 @@
 .Home{
   height: 750px;
   width: 100%;
-  background-color: purple;
+  background-color: #1e0a49;
 }
 nav{
   display: flex;
@@ -9,17 +9,34 @@ nav{
   align-items: center;
   padding-left: 25px;
   padding-right: 25px;
-  background-color: aqua;
+  background-color: rgba(84, 13, 131, 0.7);
+}
+nav h2{
+  color: white;
 }
 
-
+.home-text h2{
+  color: white;
+}
+.home-text h1{
+  color: white;
+  font-size: 80px;
+}
+.home-text p{
+  color: white;
+  font-size: 25px;
+}
+.home-text h2{
+  color: #8470af;
+  font-size: 60px;
+}
 nav ul li{
   list-style-type: none;
   display: inline-block;
   padding: 10px 20px;
 }
 nav ul li a{
-  color: black;
+  color: white;
   text-decoration: none;
 }
 .home-info{
@@ -39,29 +56,33 @@ h{
 .Linkedin-icon{
   
 }
+svg{
+  fill: #8470af;
+}
 .Linkedin-icon svg{
   height: 30px;
   padding-right: 20px;
 }
 .facebook-icon svg{
   height: 32px;
+  color: #f8f8f8;
 }
 .home-info{
   padding-top: 80px;
 }
 .home-text{
   text-align: center;
-  padding-top: 80px;
+  padding-top: 30px;
   
 }
 .pro-picture{
   align-content: center;
-  padding-left: 60px;
+  padding-left: 100px;
 }
 .cards img{
   align-items: center;
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   background-image: url('./Images/IMG-20210327-WA0014.jpg');
   border-radius: 50%;
   background-repeat: no-repeat;
@@ -74,7 +95,7 @@ h{
   justify-content: right;
 }
 .hmtl-icon{
-  border: 3px solid white;
+  border: 3px solid #DBE2E9;
   width: fit-content;
   background-color: blueviolet;
   border-radius: 20%;
@@ -87,7 +108,7 @@ h{
   padding-top: 15px;
 }
 .css-icon{
-  border: 3px solid white;
+  border: 3px solid #DBE2E9;
   width: fit-content;
   background-color: blueviolet;
   border-radius: 20%;
@@ -102,7 +123,7 @@ h{
   display: flex;
 }
 .javascript-icon{
-  border: 3px solid white;
+  border: 3px solid #DBE2E9;
   width: fit-content;
   background-color: blueviolet;
   border-radius: 20%;
@@ -114,7 +135,7 @@ h{
   padding-top: 15px;
 }
 .react-icon{
-  border: 3px solid white;
+  border: 3px solid #DBE2E9;
   width: fit-content;
   background-color: blueviolet;
   border-radius: 20%;
@@ -126,7 +147,7 @@ h{
   padding-top: 15px;
 }
 .sql-icon{
-  border: 3px solid white;
+  border: 3px solid #DBE2E9;
   width: fit-content;
   background-color: blueviolet;
   border-radius: 20%;
@@ -170,11 +191,16 @@ h{
   background-color: palevioletred;
 }
 .MyPortfolio{
-  background-color: white;
+  background-color: #DBE2E9;
 }
 .about{
   padding-left: 40px;
   padding-top: 40px;
+}
+.about p{
+  font-size: 25px;
+  text-align: justify;
+  padding-top: 20px;
 }
 .about-skills{
   display: grid;
@@ -201,12 +227,27 @@ h{
   padding-bottom: 30px;
   padding-left: 40px;
   padding-top: 40px;
-  
 }
 input{
   background-color: white;
   width: 35%;
-  height: 25px;
+  height: 20px;
   border: 2px solid #f8f8f8;
   padding: 10px;
 }
+.name{
+  padding-bottom: 20px;
+}
+.email{
+  padding-bottom: 20px;
+}
+.message{
+  padding-bottom: 20px;
+}
+.btn-sub{
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+

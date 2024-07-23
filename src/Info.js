@@ -15,7 +15,7 @@ function MyInformation(){
             <div className="message">
             <input type="text" placeholder="Your Message" name="text"></input>
             </div>
-        <button>Submit</button>
+        <button className="btn-sub">Submit</button>
         </div>
     </div>
 
