@@ -97,10 +97,11 @@ svg{
 .hmtl-icon{
   border: 3px solid #DBE2E9;
   width: fit-content;
-  background-color: blueviolet;
+  background-color: #301934;
   border-radius: 20%;
   height: 70px;
-  
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .hmtl-icon svg{
   align-content: center;
@@ -110,9 +111,11 @@ svg{
 .css-icon{
   border: 3px solid #DBE2E9;
   width: fit-content;
-  background-color: blueviolet;
+  background-color: #301934;
   border-radius: 20%;
   height: 70px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .css-icon svg{
   align-content: center;
@@ -125,9 +128,11 @@ svg{
 .javascript-icon{
   border: 3px solid #DBE2E9;
   width: fit-content;
-  background-color: blueviolet;
+  background-color: #301934;
   border-radius: 20%;
   height: 70px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .javascript-icon svg{
   align-content: center;
@@ -137,9 +142,11 @@ svg{
 .react-icon{
   border: 3px solid #DBE2E9;
   width: fit-content;
-  background-color: blueviolet;
+  background-color:#301934;
   border-radius: 20%;
   height: 70px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .react-icon svg{
   align-content: center;
@@ -149,46 +156,64 @@ svg{
 .sql-icon{
   border: 3px solid #DBE2E9;
   width: fit-content;
-  background-color: blueviolet;
+  background-color: #301934;
   border-radius: 20%;
   height: 70px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .sql-icon svg{
   align-content: center;
   height: 40px;
   padding-top: 15px;
 }
+.net-icon{
+  border: 3px solid #DBE2E9;
+  width: fit-content;
+  background-color: #301934;
+  border-radius: 20%;
+  height: 70px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.net-icon svg{
+  align-content: center;
+  height: 40px;
+  padding-top: 15px;
+}
 .card{
   width: 400px;
-  background-color: #f8f8f8;
+  background-color: #f3ccff;
   overflow: hidden;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-  margin: 20px;
+  margin-right: 40px;
   padding-left: 10px;
   padding-right: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 1px;
   padding-top: 10px;
-  
+  border-radius: 2%;
 }
 .card img{
   width: 100%;
-  height: 250px;
+  height: 200px;
+  border-top-left-radius: 2%;
+  border-top-right-radius: 2%;
 }
 .card-content{
   text-align: center;
   padding-top: 0px;
-  padding-bottom: 80px;
+  padding-bottom: 20px;
 }
 .my-projects{
   display: flex;
-  padding-right: 3%;
+  
   
 }
 .info{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
-  background-color: palevioletred;
+  background-color: #f3ccff;
 }
 .MyPortfolio{
   background-color: #DBE2E9;
@@ -197,10 +222,12 @@ svg{
   padding-left: 40px;
   padding-top: 40px;
 }
-.about p{
+p{
   font-size: 25px;
-  text-align: justify;
+}
+.about p{
   padding-top: 20px;
+  padding-right: 300px;
 }
 .about-skills{
   display: grid;
@@ -211,10 +238,14 @@ svg{
   padding-top: 200px;
 }
 .projects{
-  padding-top: 30px;
+  padding-top: 50px;
   padding-bottom: 30px;
   padding-left: 40px;
   padding-top: 40px;
+}
+button{
+  display: flex;
+  align-items: center;
 }
 .discuss{
   padding-top: 30px;
@@ -250,4 +281,27 @@ input{
   padding-top: 5px;
   padding-bottom: 5px;
 }
+.project-github{
+  display: flex;
+  justify-content: center;
+}
+.project-github svg{
+   height: 20px;
+   fill: white;
+   padding-left: 20px;
 
+}
+.project-github button{
+  border: 2px solid #301934;
+  background-color: #301934;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: fit-content;
+  width: 350px;
+}
+.btn-text{
+  padding-left: 20px;
+  text-align: center;
+}
