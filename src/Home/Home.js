@@ -1,3 +1,5 @@
+
+
 function Home()
 {
     return<div className="Home" id="home">
@@ -19,10 +21,13 @@ function Home()
                     <a href="#articles">Projects</a>
                 </li>
             </ul>
+            <div className="btn-home">
             <a href="#Subcription">
+                <a href="#">
                 <button type="button">Download Resume</button>
+                </a>
             </a>
-            
+            </div>
         </nav>
         
     </div>

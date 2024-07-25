@@ -1,8 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import Home from './Home';
-import MyPortfolio from './portfolio';
-import MyInformation from './Info';
+
+import Home from './Home/Home';
+import MyPortfolio from './Portfolio/portfolio';
+import MyInformation from './MyInformation/Info';
 import MyFooter from './Footer';
 
 function App() {
@@ -11,7 +12,6 @@ function App() {
       <Home/>
       <MyPortfolio/>
       <MyInformation/>
-      <MyFooter/>
     </div>
   );
 }

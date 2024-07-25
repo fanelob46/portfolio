@@ -1,5 +1,5 @@
 .Home{
-  height: 750px;
+  height: 970px;
   width: 100%;
   background-color: #1e0a49;
 }
@@ -9,12 +9,14 @@ nav{
   align-items: center;
   padding-left: 25px;
   padding-right: 25px;
-  background-color: rgba(84, 13, 131, 0.7);
+  background-color: #8121D0;
 }
 nav h2{
   color: white;
 }
-
+.btn-home a{
+  text-decoration: none;
+}
 .home-text h2{
   color: white;
 }
@@ -45,8 +47,8 @@ nav ul li a{
   grid-gap: 20px;
 
 }
-h{
-  font-size: 70px;
+h1{
+  color: #331c52;
 }
 .facebook-icon{
   
@@ -183,7 +185,7 @@ svg{
 }
 .card{
   width: 400px;
-  background-color: #f3ccff;
+  background-color: #DCCFED;
   overflow: hidden;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
   margin-right: 40px;
@@ -213,10 +215,10 @@ svg{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
-  background-color: #f3ccff;
+  background-color: #DCCFED;
 }
 .MyPortfolio{
-  background-color: #DBE2E9;
+  background-color: #E1EBED;
 }
 .about{
   padding-left: 40px;
@@ -228,6 +230,7 @@ p{
 .about p{
   padding-top: 20px;
   padding-right: 300px;
+  
 }
 .about-skills{
   display: grid;
@@ -243,21 +246,27 @@ p{
   padding-left: 40px;
   padding-top: 40px;
 }
+.project-github a{
+   text-decoration: none;
+}
 button{
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 .discuss{
-  padding-top: 30px;
   padding-bottom: 30px;
-  padding-left: 40px;
+  padding-left: 50px;
   padding-top: 40px;
+}
+.discuss h1{
+  font-size: 45px;
 }
 .email-info{
   padding-top: 60px;
   padding-bottom: 30px;
   padding-left: 40px;
-  padding-top: 40px;
+  padding-top: 90px;
 }
 input{
   background-color: white;
@@ -280,6 +289,8 @@ input{
   padding-left: 40px;
   padding-top: 5px;
   padding-bottom: 5px;
+  background-color: #291c3a;
+  color: white;
 }
 .project-github{
   display: flex;
