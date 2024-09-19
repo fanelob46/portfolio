@@ -8,6 +8,7 @@ import { DiJqueryLogo } from "react-icons/di";
 import { BiLogoSpringBoot } from "react-icons/bi";
 import { DiMysql } from "react-icons/di";
 import { FaJava } from "react-icons/fa";
+import { RiTailwindCssFill } from "react-icons/ri";
 
 
 
@@ -16,20 +17,24 @@ import { FaJava } from "react-icons/fa";
 
 const Skills = () => {
   return (
-    <div className='bg-[#201c24] h-100vh]'>
+    <div className='bg-[#201c24] h-100vh]' id='skills'>
         <h1 className='text-white text-8xl text-center '>Skills</h1>
 
         <div className='text-white grid grid-cols-2 space-x-20 px-20 py-20 '>
             <div className='shadow-white border-2 px-20 py-20 '>
                 <h1 className='text-center text-5xl py-10'>Front-end</h1>
-                <div className='grid grid-cols-3 space-x-20'>
-                    <div className=' place-items-center'>
+                <div className='grid grid-cols-3 place-items-center space-y-7 text-center '>
+                    <div className=''>
                     <FaHtml5 className='text-orange-600 text-8xl' />
                     <h1>HTML5</h1>
                     </div>
                 <div>
                 <FaCss3Alt className='text-blue-800 text-8xl'/>
                 <h1>CSS3</h1>
+                </div>
+                <div>
+                <RiTailwindCssFill className='text-blue-200 text-8xl'/>
+                <h1>TAILWIND</h1>
                 </div>
                 <div>
                 <IoLogoJavascript className='text-yellow-400 text-8xl'/>
@@ -44,17 +49,14 @@ const Skills = () => {
                 <FaBootstrap className='text-blue-300 text-8xl'/>
                 <h1>BOOTSTRAP</h1>
                 </div>
-                <div>
-                <DiJqueryLogo className='text-orange-600 text-8xl' />
-                <h1>JQUERY</h1>
-                </div>
+                
                 
 
                 </div>
             </div>
             <div className='shadow-white border-2 px-20 py-20 '>
-                <h1 className='text-center text-5xl py-10'>Front-end</h1>
-                <div className='grid grid-cols-2 space-x-20'>
+                <h1 className='text-center text-5xl py-10'>Back-end</h1>
+                <div className='grid grid-cols-2 place-items-center space-y-7 text-center'>
                     <div className=' place-items-center'>
                     <BiLogoSpringBoot 
                     className='text-green-500 text-8xl' />

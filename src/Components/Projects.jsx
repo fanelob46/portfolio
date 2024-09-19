@@ -4,7 +4,7 @@ import survey from '../assets/Survey.png'
 
 const Projects = () => {
   return (
-    <div className='bg-[#201c24] h-100vh] py-10'>
+    <div className='bg-[#201c24] h-100vh] py-10' id='projects'>
         <h1 className='text-4xl text-center text-white'>PROJECTS</h1>
         <div className='py-36 px-40 space-y-40'>
             <div className='grid grid-cols-2 place-items-center px-20 space-x-2 text-white text-4xl'>

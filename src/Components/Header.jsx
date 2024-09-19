@@ -15,7 +15,9 @@ const Header = () => {
                     <h5 className='text-6xl'>FullStack Developer</h5>
                     <h1 className='text-[120px]'>Hello I'm</h1>
                     <h1 className='text-[120px] text-[#07f99d]'>Baloyi Fanelo</h1>
-                    <p className='text-5xl font-light w-[900px] text-gray-500 '>I excel at crafting elegant digital expreciences and I am proficient in various programming languages and technologies</p>
+                    <p className='text-5xl font-light w-[700px] text-gray-500 text-justify'>
+  I excel at crafting elegant digital experiences and I am proficient in various programming languages and technologies.
+</p>
                     
                 </div>
                 <div className='flex space-x-7'>
