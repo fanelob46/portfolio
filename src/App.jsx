@@ -8,11 +8,10 @@ import Footer from './Components/Footer'
 
 function App() {
   
-
   return (
     <>
      <Header/>
-     <Skills/>
+     <Skills/> 
      <Projects/>
      <Contact/>
      <Footer/>

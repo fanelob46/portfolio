@@ -18,7 +18,7 @@ const Header = () => {
             </div>
             <div className='grid grid-cols-1  '>
                 <div className='py-10 space-y-2 kobus:space-y-20'>
-                    <h5 className='kobus:text-3xl md:text-5xl pc:text-2xl'>FullStack Developer</h5>
+                    <h5 className='kobus:text-3xl md:text-5xl pc:text-2xl '>FullStack Developer</h5>
                     <h1 className='kobus:text-[120px] md:text-4xl pc:text-3xl'>Hello I'm</h1>
                     <h1 className='kobus:text-[120px] text-[#07f99d] md:text-3xl'>Baloyi Fanelo</h1>
                     <p className='kobus:text-5xl font-light md:text-3xl sm:w-[400px] kobus:w-[700px] text-gray-500 text-justify'>
@@ -26,9 +26,10 @@ const Header = () => {
 </p>
                     
                 </div>
-                <div className='flex kobus:space-x-7 space-x-4 sm:justify-center'>
-                <a href={CV} download={CV} className='text-center border-2 border-[#07f99d] rounded-full  px-2 md:px-4 md:py-2 '>
-                    <div className='text-sm pt-3 md:text-2xl md:pb-2'>Download CV</div></a>
+                <div className='kobus:space-x-7 space-x-4 sm:justify-center'>
+                {/* <a href={CV} download={CV} className='text-center border-2 border-[#07f99d] rounded-full border-dashed px-2 md:px-4 md:py-2 
+                transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-full hover:shadow-[4px_4px_0px_#201c24]] active:translate-x-[0px] active:translate-y-[0px] active:rounded-full active:shadow-none'>
+                    <div className='text-sm pt-3 md:text-2xl md:pb-2'>Download CV</div></a> */}
                 <div className='flex space-x-6'>
                 <FiGithub className=' border-2 border-[#07f99d] rounded-full kobus:text-7xl text-5xl py-4 text-[#07f99d] md:text-7xl'/>
                 <FaLinkedinIn className='border-2 border-[#07f99d] rounded-full kobus:text-7xl py-4 text-5xl text-[#07f99d] md:text-7xl' />

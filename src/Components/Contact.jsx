@@ -24,7 +24,7 @@ export const Contact = () => {
             <form action="" className='space-y-10'>
   <div className='gap-3  grid grid-cols-1'>
   <div className='relative grid grid-cols-1'>
-      <label className='absolute top-0 left-2 text-sm text-gray-500'>Email</label>
+      <label className='absolute top-0 left-2 text-sm text-gray-500'>Full Name</label>
       <input type="email" className='kobus:py-6 md:py-4 kobus:px-36 bg-[#20243c]'/>
     </div>
     <div className='relative grid grid-cols-1'>
